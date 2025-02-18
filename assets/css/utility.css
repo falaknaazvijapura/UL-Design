@@ -1,0 +1,292 @@
+/* Universal Selector */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Color Variable */
+
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --purple60: #703BF7;
+    --purple65: #8254F8;
+    --purple70: #946CF9;
+    --purple75: #A685FA;
+    --purple90: #DBCEFD;
+    --purple95: #EDE7FE;
+    --purple97: #F4F0FE;
+    --purple99: #FBFAFF;
+
+    --white90: #E4E4E7;
+    --white95: #F1F1F3;
+    --white97: #F7F7F8;
+    --white99: #F7F7F8;
+
+    --grey08: #141414;
+    --grey10: #1A1A1A;
+    --grey15: #262626;
+    --grey20: #333333;
+    --grey30: #4D4D4D;
+    --grey40: #666666;
+    --grey50: #808080;
+    --grey60: #999999;
+}
+
+/* Font style */
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist/Urbanist-VariableFont_wght.ttf');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body Styles */
+body {
+    font-family: "Urbanist", sans-serif;
+    background-color: var(--grey08);
+    color: var(--white);
+}
+
+
+/* Padding Utilities (p1-p5) */
+.p1 {
+    padding: 0.25rem;
+    /* 4px */
+}
+
+.p2 {
+    padding: 0.5rem;
+    /* 8px */
+}
+
+.p3 {
+    padding: 1rem;
+    /* 16px */
+}
+
+.p4 {
+    padding: 1.5rem;
+    /* 24px */
+}
+
+.p5 {
+    padding: 2rem;
+    /* 32px */
+}
+
+
+/* Margin Utilities (m1-m5) */
+.m1 {
+    margin: 0.25rem;
+    /* 4px */
+}
+
+.m2 {
+    margin: 0.5rem;
+    /* 8px */
+}
+
+.m3 {
+    margin: 1rem;
+    /* 16px */
+}
+
+.m4 {
+    margin: 1.5rem;
+    /* 24px */
+}
+
+.m5 {
+    margin: 2rem;
+    /* 32px */
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+
+    display: inline-block;
+}
+
+.text-decoration {
+
+    text-decoration: underline;
+
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+
+}
+
+li,
+ol,
+ul {
+
+    list-style: none;
+
+}
+
+/* BUTTON UITILITY */
+
+.btn {
+
+    padding: 16px 24px;
+    border-radius: 10px;
+
+    color: var(--white);
+    font-weight: 500;
+    font-size: 15px;
+
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+
+    display: block;
+    text-align: center;
+}
+
+.btn::before {
+    background: #fff;
+    content: "";
+    height: 155px;
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+    left: -50%;
+    transform: rotate(35deg);
+    width: 50px;
+    transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn::after {
+    background: #fff;
+    content: "";
+    height: 20rem;
+    opacity: 0;
+    position: absolute;
+    top: -50px;
+    left: -100%;
+    transform: rotate(35deg);
+    transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 8rem;
+}
+
+.btn:hover,
+.btn:active {
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover::before {
+    left: 120%;
+    opacity: 0.5s;
+}
+
+.btn:hover::after {
+    left: 200%;
+    opacity: 0.6;
+}
+
+.btn span {
+    z-index: 20;
+}
+
+/* COLOR UTILITY */
+
+.btn-secondary {
+
+    background-color: var(--grey08);
+    border: 1px solid var(--grey15);
+
+
+}
+
+.btn-primary {
+
+    background-color: var(--purple60);
+    border: none;
+
+}
+
+/* DISPLAY UTILITY */
+
+.display-block {
+
+    display: block;
+
+}
+
+.display-inline-block {
+
+    display: inline-block;
+
+}
+
+/*  POSITION UTILITY */
+
+.position-relative {
+
+    position: relative;
+
+}
+
+/* FORM UTOLITY */
+
+.input-form {
+
+    border: 1px solid var(--grey15);
+    border-radius: 6px;
+    background-color: var(--grey10);
+
+    padding: 18px 20px;
+    margin: 15px 0 30px 0;
+
+    width: 100%;
+    flex: 1;
+
+}
+
+.input-form::placeholder {
+
+    color: var(--grey40);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.input-group {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.input-group .inquiry-field {
+
+    flex: 1;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

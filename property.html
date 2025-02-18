@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Design</title>
+
+    <!-- SWIPER SLIDER CSS LINK -->
+    <link rel="stylesheet" href="./assets/swiper/swiper-bundle.min.css">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Responsivr CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+
+</head>
+
+<body>
+
+    <!-- TOP-BAR -->
+
+
+    <nav class="top-bar-wrapper" id="topbar">
+
+        <h5>✨Discover Your Dream Property with Estatein <a href="#" class="text-decoration">Learn More</a></h5>
+
+        <div class="close-icon" onclick="handleCloseTopBar()" id="closeIcon">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="white"
+                height="20" width="20" class="w-6 h-6 text-blue-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+
+        </div>
+
+    </nav>
+
+
+    <!--/. TOP-BAR -->
+
+    <!-- HEADER -->
+
+    <div class="parent-border">
+
+        <div class="container position-relative">
+
+            <nav class="navbar-wrapper">
+
+                <div class="nav-log">
+                    <img src="assets/images/Logo.png" alt="">
+                </div>
+
+
+                <ul class="navbar" id="navbar">
+
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btn btn-secondary display-block">Properties</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+
+
+                </ul>
+
+
+                <div class="nav-button">
+
+                    <div class="navbar-toggle btn btn-secondary display-inline-block" id="navToggle"
+                        onclick="handleNavToggle()">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            height="25" width="25" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                        </svg>
+
+
+                    </div>
+
+                    <button type="button" class="btn btn-secondary">
+                        <span> Contact Us</span>
+                    </button>
+                </div>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+    <!--/. HEADER -->
+
+    <!-- PROPERTY DETAILS -->
+
+    <section class="property-detail-wrapper">
+
+        <div class="container ">
+
+            <div class="property-content">
+
+                <div class="property-title">
+
+                    <span>Seaside Serenity Villa</span>
+
+
+                    <a class="property-location">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="20px"
+                            width="15px" class="location-mark size-6">
+                            <path fill-rule="evenodd"
+                                d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        Malibu, California
+
+                    </a>
+
+                </div>
+
+
+                <div class="property-price">
+
+                    <span>Price</span>
+                    <h5>$1,250,000</h5>
+
+                </div>
+
+            </div>
+
+            <div class="main-swiper-wrapper">
+
+                <!-- SWIPER ONE -->
+
+                <div class="thumb-swiper">
+
+                    <div thumbsSlider="" class="swiper mySwiper">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image01.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image02.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image03.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image04.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image05.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image06.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image07.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image08.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image09.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/image10.png" />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- SWIPER TWO -->
+
+                <div class="swiper mySwiper2">
+
+                    <div class="swiper-wrapper main-banner-slide">
+
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image01.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image02.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image03.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image04.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image05.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image06.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image07.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image08.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image09.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/image10.png" />
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="navigation-wrapper">
+
+                    <div class="button-prev btn-prev">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" height="21" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                        </svg>
+
+
+                    </div>
+
+                    <div class="pagination-wrapper">
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="button-next btn-next">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" height="21" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="property-about-wrapper">
+
+                <div class="property-description">
+
+                    <div class="description-title">
+
+                        <h4>Description</h4>
+
+                        <p>Discover your own piece of paradise with the Seaside Serenity Villa. T With an open floor
+                            plan,
+                            breathtaking ocean views from every room, and direct access to a pristine sandy beach, this
+                            property is the epitome of coastal living.
+                        </p>
+
+                    </div>
+
+                    <div class="description-item-group">
+
+                        <span class="description-items">
+
+                            <div class="item-icons">
+
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.0119 15.9597C7.01369 15.9597 4.01627 15.9597 1.01806 15.9597C0.714934 15.9597 0.574786 16.0984 0.574786 16.3977C0.574786 16.4752 0.578723 16.5527 0.573999 16.6295C0.5677 16.7225 0.558252 16.8155 0.54093 16.9062C0.476368 17.2372 0.159068 17.5023 -0.220432 17.4984C-0.601507 17.4946 -0.917233 17.2116 -0.974709 16.8481C-0.988094 16.7628 -0.99518 16.6752 -0.99518 16.5891C-0.995967 14.8279 -1.00778 13.0659 -0.991243 11.3046C-0.981795 10.2783 -0.602295 9.38527 0.125212 8.64186C0.566913 8.19069 1.09207 7.86976 1.69282 7.66511C2.16522 7.50465 2.65338 7.45581 3.15098 7.45581C7.76246 7.45736 12.3739 7.45348 16.9854 7.45891C18.3365 7.46046 19.4309 7.9969 20.2419 9.06356C20.6403 9.58837 20.8781 10.1845 20.9592 10.8357C20.9867 11.055 20.9985 11.2783 20.9993 11.5C21.0025 13.2101 21.0017 14.9202 21.0009 16.6302C21.0009 16.8977 20.934 17.1411 20.7104 17.3178C20.4741 17.5046 20.2104 17.5535 19.9293 17.4395C19.66 17.3295 19.49 17.1271 19.4514 16.838C19.4317 16.6922 19.4341 16.5426 19.4301 16.3953C19.4238 16.1574 19.3238 16.0139 19.1239 15.9698C19.0798 15.9597 19.0333 15.9605 18.9876 15.9605C15.9965 15.9605 13.0054 15.9605 10.0135 15.9605L10.0119 15.9597Z" />
+                                    <path
+                                        d="M9.90295 0.5C11.8477 0.5 13.7916 0.5 15.7356 0.5C16.3867 0.5 16.9954 0.643411 17.5205 1.03953C18.1961 1.54884 18.5905 2.21938 18.6236 3.06124C18.6519 3.77519 18.6393 4.4907 18.6425 5.20543C18.6448 5.66589 18.6425 6.12636 18.6425 6.58682C18.6425 6.62791 18.6401 6.67132 18.6291 6.71085C18.5952 6.83566 18.5267 6.88527 18.3976 6.86124C18.2567 6.83488 18.1205 6.77829 17.9795 6.76279C17.6481 6.72713 17.3158 6.70233 16.9828 6.68527C16.7607 6.67364 16.6922 6.63411 16.6607 6.41938C16.56 5.73876 15.9198 5.12636 15.101 5.13566C14.1877 5.14574 13.2744 5.13798 12.3618 5.13798C11.6824 5.13798 11.1021 5.53643 10.8714 6.16434C10.8383 6.25426 10.8257 6.35194 10.8084 6.44651C10.7761 6.61628 10.7123 6.67984 10.5407 6.68217C10.1809 6.68605 9.82028 6.68605 9.46046 6.68217C9.29512 6.68062 9.22977 6.61628 9.19985 6.42791C9.15812 6.16357 9.05419 5.92791 8.88413 5.72093C8.57627 5.34574 8.17788 5.14186 7.68657 5.13953C6.74412 5.13488 5.80167 5.13721 4.85843 5.13876C4.06636 5.13953 3.44672 5.74884 3.34594 6.41783C3.31366 6.63411 3.24831 6.67209 3.02628 6.68605C2.65859 6.71008 2.2909 6.74419 1.924 6.78295C1.8114 6.79457 1.70354 6.84264 1.59174 6.86124C1.47127 6.88062 1.41537 6.84031 1.38151 6.72403C1.36813 6.67829 1.36183 6.62946 1.36183 6.5814C1.36104 5.47674 1.34608 4.37209 1.36498 3.26744C1.38466 2.11163 1.92714 1.26202 2.98849 0.748062C3.40893 0.545736 3.8648 0.5 4.32618 0.5C6.18511 0.5 8.04403 0.5 9.90295 0.5Z" />
+
+                                </svg>
+
+
+                                Bedrooms
+
+                            </div>
+
+                            <h3>04</h3>
+
+                        </span>
+
+                        <span class="description-items">
+
+                            <div class="item-icons">
+
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.270432 14.2616H10.111V16.0697H16.2625V14.2655H18.7064C18.8646 16.4158 18.8771 18.3304 16.6716 19.7897C16.6447 19.8075 16.623 19.8318 16.5633 19.885C16.8345 20.1102 17.1018 20.3329 17.3665 20.5529C17.0092 20.8944 16.7222 21.169 16.3932 21.4842C16.1029 21.1847 15.7889 20.8373 15.4467 20.5207C15.3462 20.4275 15.1683 20.3894 15.0224 20.3802C14.784 20.3657 14.5423 20.4045 14.302 20.4051C11.1067 20.4071 7.91145 20.4065 4.71554 20.4065C4.56251 20.4065 4.39897 20.436 4.25777 20.3933C3.83151 20.2652 3.56092 20.4629 3.3074 20.7683C3.09132 21.0284 2.84502 21.2629 2.61975 21.5007C2.31566 21.1808 2.04046 20.8918 1.73572 20.5707C1.93998 20.39 2.19941 20.1602 2.49102 19.9014C2.29004 19.7576 2.13964 19.6577 1.99712 19.5474C0.929186 18.7244 0.351873 17.6329 0.276343 16.2924C0.238906 15.6284 0.269775 14.9604 0.269775 14.2616H0.270432Z" />
+                                    <path
+                                        d="M0.275543 9.28711C0.270288 9.16823 0.261093 9.06117 0.261093 8.95412C0.260437 7.21364 0.258466 5.47382 0.261093 3.73335C0.26372 1.82079 1.59108 0.486207 3.50101 0.499999C4.14203 0.504597 4.80275 0.491461 5.41882 0.63661C6.5117 0.894726 7.20001 1.65265 7.53235 2.72058C7.59671 2.92813 7.68012 3.02862 7.90803 3.09035C9.19401 3.43911 10.0964 4.64102 10.1128 5.98217C10.1155 6.19825 10.1128 6.41434 10.1128 6.64881H4.02578C3.73548 5.1139 4.56959 3.52974 6.31335 3.03518C6.15573 2.35016 5.48121 1.77219 4.7732 1.74723C4.23792 1.72818 3.70067 1.72621 3.16539 1.74723C2.24261 1.78335 1.50044 2.63061 1.4965 3.64665C1.48994 5.39763 1.49453 7.14928 1.49453 8.90026C1.49453 9.0198 1.49453 9.13933 1.49453 9.28645H0.274229L0.275543 9.28711Z" />
+                                    <path
+                                        d="M10.0936 13.0327C9.96484 13.0327 9.8683 13.0327 9.77175 13.0327C6.64415 13.0327 3.51589 13.0334 0.388282 13.0321C-0.284921 13.0321 -0.768971 12.7135 -0.939078 12.1697C-1.19522 11.3514 -0.615283 10.5632 0.268748 10.5514C1.20926 10.5389 2.14978 10.5481 3.09029 10.5481C5.29971 10.5481 7.50847 10.5481 9.71789 10.5481C9.83611 10.5481 9.95434 10.5481 10.0936 10.5481V13.0327Z" />
+                                    <path
+                                        d="M15.0227 14.8711H11.3625C11.3565 14.7555 11.3467 14.6504 11.3467 14.5453C11.3454 13.2771 11.3454 12.0082 11.3467 10.7399C11.3473 9.82239 11.8485 9.31798 12.7621 9.31404C13.101 9.31272 13.4399 9.3055 13.7788 9.31601C14.54 9.34031 15.0372 9.85194 15.0391 10.6151C15.0431 11.9385 15.0404 13.2613 15.0391 14.5847C15.0391 14.6708 15.0299 14.7561 15.0227 14.8711Z" />
+                                    <path
+                                        d="M16.2832 13.0209V10.5481C16.8782 10.5481 17.4648 10.5462 18.0506 10.5488C18.356 10.5501 18.668 10.5251 18.9668 10.5744C19.619 10.6821 20.0433 11.2161 20.0164 11.8394C19.9901 12.4508 19.5389 12.9756 18.8985 13.0091C18.0394 13.0544 17.1764 13.0203 16.2839 13.0203L16.2832 13.0209Z" />
+
+                                </svg>
+
+
+                                Bathroom
+
+                            </div>
+
+                            <h3>03</h3>
+                        </span>
+
+                        <span class="description-items">
+
+                            <div class="item-icons">
+
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.837286 3.76614C0.612648 4.0303 0.387352 4.29381 0.167984 4.55138C-0.262846 4.1166 -0.63834 3.73847 -1 3.37418C-0.083004 2.45586 0.852437 1.51976 1.77602 0.595522C2.70026 1.52174 3.63505 2.45784 4.55072 3.3755C4.19302 3.7332 3.81489 4.11067 3.40382 4.52174C3.16601 4.25626 2.91041 3.97102 2.59025 3.61463V7.40448C4.31555 5.67655 6.08234 3.90843 7.8386 2.14954C7.37549 2.14954 6.85112 2.11726 6.33333 2.15942C5.88472 2.19565 5.57115 2.04809 5.27866 1.71739C4.92358 1.31621 4.51976 0.957841 4.08235 0.527669C4.24769 0.515153 4.33794 0.502636 4.42885 0.502636C8.82148 0.501978 13.2141 0.500001 17.6067 0.502636C19.0086 0.503295 20.0079 1.48024 20.0099 2.87352C20.0171 7.2892 20.0125 11.7042 20.0125 16.1199C20.0125 16.1812 20.0059 16.2431 19.9209 16.363C19.5231 15.9466 19.143 15.5112 18.72 15.1219C18.4453 14.8689 18.3347 14.6054 18.357 14.2339C18.3887 13.7141 18.365 13.191 18.365 12.6746C16.6008 14.4407 14.8544 16.1884 13.112 17.9328H16.9091C16.554 17.643 16.2615 17.4045 15.9743 17.17C16.4453 16.7167 16.8287 16.3478 17.2016 15.9881C18.0837 16.8801 19.0151 17.8215 19.9401 18.7563C19.0441 19.6456 18.1047 20.5784 17.1752 21.5007C16.8261 21.1449 16.4545 20.7668 16.0586 20.3636C16.2813 20.1673 16.5349 19.9433 16.7885 19.7194C16.7727 19.6805 16.7569 19.6416 16.7404 19.6034H16.3775C12.0507 19.6034 7.72398 19.6047 3.39723 19.6028C2.21278 19.6028 1.35902 19.0283 1.03294 17.9835C0.943346 17.6963 0.917655 17.3801 0.916996 17.0764C0.90975 12.7708 0.912385 8.46509 0.912385 4.15942C0.912385 4.04348 0.912385 3.92688 0.912385 3.81094C0.886693 3.79579 0.861001 3.78129 0.83531 3.76614H0.837286ZM2.56258 16.6831C7.40975 11.8353 12.249 6.99473 17.0935 2.14954C16.4032 2.14954 15.6937 2.14361 14.9842 2.15679C14.8933 2.15876 14.7879 2.24177 14.7154 2.31423C10.7167 6.30896 6.72003 10.3063 2.72596 14.3063C2.65415 14.3788 2.57115 14.4842 2.56917 14.5751C2.55599 15.2839 2.56258 15.9934 2.56258 16.6831ZM18.365 3.45784C13.5296 8.29183 8.69499 13.1258 3.86693 17.9526C4.52569 17.9526 5.22464 17.9585 5.92358 17.9453C6.01449 17.9433 6.11858 17.8571 6.19104 17.7839C10.1963 13.7826 14.1996 9.77866 18.1996 5.77273C18.2721 5.70027 18.3557 5.59486 18.357 5.50395C18.3702 4.80567 18.365 4.10672 18.365 3.45784ZM18.365 8.08762C15.0758 11.3742 11.7833 14.664 8.49144 17.9526C9.15876 17.9526 9.85705 17.9585 10.556 17.9453C10.6462 17.9433 10.749 17.8531 10.8221 17.78C13.2846 15.3221 15.7444 12.8617 18.2016 10.3986C18.2734 10.3261 18.3557 10.22 18.3577 10.1285C18.3709 9.42951 18.365 8.73123 18.365 8.08762ZM2.56258 12.0231C5.861 8.72596 9.14624 5.44137 12.4387 2.14954C11.7793 2.14954 11.1028 2.14361 10.4262 2.15613C10.334 2.1581 10.2266 2.23518 10.1548 2.30633C7.67589 4.77997 5.20026 7.25626 2.72727 9.73518C2.65547 9.80764 2.5718 9.91239 2.56983 10.004C2.55665 10.6818 2.56258 11.3597 2.56258 12.0231Z" />
+
+                                </svg>
+
+
+                                Area
+
+                            </div>
+
+                            <h3>2,500 Square Feet</h3>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="property-features">
+
+                    <h4>Key Features and Amenities</h4>
+
+                    <div class="feature-list">
+
+                        <svg width="15" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                            class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+
+                        <p>Expansive oceanfront terrace for outdoor entertaining</p>
+                    </div>
+
+                    <div class="feature-list">
+
+                        <svg width="15" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                            class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+
+                        <p>Gourmet kitchen with top-of-the-line appliances</p>
+                    </div>
+
+                    <div class="feature-list">
+
+                        <svg width="15" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                            class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <p>Private beach access for morning strolls and sunset views</p>
+                    </div>
+
+                    <div class="feature-list">
+
+                        <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                            class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <p>Master suite with a spa-inspired bathroom and ocean-facing balcony</p>
+                    </div>
+
+                    <div class="feature-list">
+
+                        <svg width="15" height="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                            class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <p>Private garage and ample storage space</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="property-inquiry-wrapper">
+
+
+        <div class="section-img">
+
+            <img src="./assets/images/stars.png" alt="">
+
+        </div>
+
+        <div class="container">
+
+            <div class="main-property-inquiry">
+
+                <div class="inquiry-content">
+
+                    <h5>Inquire About Seaside Serenity Villa</h5>
+
+                    <p>Interested in this property? Fill out the form below, and our real estate experts will get back
+                        to you with more details, including scheduling a viewing and answering any questions you may
+                        have.</p>
+
+                </div>
+
+                <div class="property-inquiry">
+
+                    <div class="input-group">
+
+                        <div class="inquiry-field">
+
+                            <div class="inquiry-label">
+
+                                <label>First Name</label>
+
+                            </div>
+
+                            <input type="text" class="input-form" placeholder="Enter First Name">
+
+                        </div>
+
+                        <div class="inquiry-field">
+
+                            <div class="inquiry-label">
+
+                                <label>Last Name</label>
+
+                            </div>
+
+                            <input type="text" class="input-form" placeholder="Enter Last Name">
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-group">
+
+
+                        <div class="inquiry-field">
+
+                            <div class="inquiry-label">
+
+                                <label>Email</label>
+
+                            </div>
+
+                            <input type="email" class="input-form" placeholder="Enter Your Email">
+
+                        </div>
+
+                        <div class="inquiry-field">
+
+                            <div class="inquiry-label">
+
+                                <label>Phone</label>
+
+                            </div>
+
+                            <input type="number" class="input-form" placeholder="Enter Phone Number">
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-full">
+
+                        <div class="inquiry-label">
+
+                            <label>First Name</label>
+
+                        </div>
+
+                        <div class="select-container">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                height="20px" width="20px" class="location-mark size-6">
+                                <path fill-rule="evenodd"
+                                    d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+
+                            <select class="input-form">
+                                <option selected>Seaside Serenity Villa, Malibu, California</option>
+                                <option>Mountain View Cabin, Aspen</option>
+                                <option>Beachfront Bungalow, Miami</option>
+                                <option>Urban Penthouse, New York</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                    <div class="input-full">
+
+                        <div class="inquiry-label">
+
+                            <label>Message</label>
+
+                        </div>
+
+                        <textarea class="input-form" placeholder="Enter Your Message Here.."></textarea>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <div class="inquiry-field">
+
+                            <label class="checkbox-group">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+
+                            </label>
+
+
+                            <label class="checkbox-label">I agree with <a href="#" class="text-decoration">Terms of
+                                    Use</a> and <a href="#" class="text-decoration">Privacy
+                                    Policy</a>
+                            </label>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary input-btn">Send Your Message</button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--/. PROPERTY DETAILS -->
+
+
+    <!-- PRICING LIST DETAILS -->
+
+    <section class="pricing-details-wrapper">
+
+
+        <div class="section-img">
+
+            <img src="./assets/images/stars.png" alt="">
+
+        </div>
+
+        <div class="container">
+
+            <div class="main-pricing-detail">
+
+
+                <div class="pricing-content">
+
+                    <h5>Comprehensive Pricing Details</h5>
+
+                    <p>At Estatein, transparency is key. We want you to have a clear understanding of all costs
+                        associated with your property investment. Below, we break down the pricing for Seaside Serenity
+                        Villa to help you make an informed decision</p>
+
+                </div>
+
+                <div class="pricing-note">
+
+                    <h5>Note</h5>
+
+                    <p>The figures provided above are estimates and may vary depending on the property, location, and
+                        individual circumstances.</p>
+
+                </div>
+
+                <div class="pricing-list-detail">
+
+                    <div class="listing-price">
+
+                        <span>Listing Price</span>
+                        <h5>$1,250,000</h5>
+
+                    </div>
+
+                    <div class="prices-lists">
+
+                        <!-- PRICE LIST GROUP ONE -->
+
+                        <div class="price-list-group">
+
+
+                            <div class="pricing-top-items">
+
+                                <h5>Additional Fees</h5>
+
+                                <a type="button" class="btn btn-secondary">Learn More</a>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Property Transfer Tax</p>
+
+                                    <div class="price">
+
+                                        <h5>$25,000</h5>
+
+                                        <p>Based on the sale price and local regulations</p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="pricing-items-content">
+
+                                    <div class="left-border">
+
+                                        <p>Legal Fees</p>
+
+                                        <div class="price">
+
+                                            <h5>$3,000</h5>
+
+                                            <p>Approximate cost for legal services, including title transfer</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Home Inspection</p>
+
+                                    <div class="price">
+
+                                        <h5>$500</h5>
+
+                                        <p>Recommended for due diligence</p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="pricing-items-content">
+
+                                    <div class="left-border">
+
+                                        <p>Property Insurance</p>
+
+                                        <div class="price">
+
+                                            <h5>$1,200</h5>
+
+                                            <p>Annual cost for comprehensive property insurance</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Mortgage Fees</p>
+
+                                    <div class="price">
+
+                                        <h5>Varies</h5>
+
+                                        <p>If applicable, consult with your lender for specific details</p>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- PRICE LIST GROUP TWO -->
+
+
+                        <div class="price-list-group">
+
+
+                            <div class="pricing-top-items">
+
+                                <h5>Monthly Costs</h5>
+
+                                <a type="button" class="btn btn-secondary">Learn More</a>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Property Taxes</p>
+
+                                    <div class="price">
+
+                                        <h5>$1,250</h5>
+
+                                        <p>Approximate monthly property tax based on the sale price and local rates</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Homeowners' Association Fee</p>
+
+                                    <div class="price">
+
+                                        <h5>$300</h5>
+
+                                        <p>Monthly fee for common area maintenance and security</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- PRICE LIST GROUP THREE -->
+
+                        <div class="price-list-group">
+
+
+                            <div class="pricing-top-items">
+
+                                <h5>Total Initial Costs</h5>
+
+                                <a type="button" class="btn btn-secondary">Learn More</a>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Listing Price</p>
+
+                                    <div class="price">
+
+                                        <h5>$1,250,000</h5>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="pricing-items-content">
+
+                                    <div class="left-border">
+
+                                        <p>Additional Fees</p>
+
+                                        <div class="price">
+
+                                            <h5>$29,700</h5>
+
+                                            <p>Property transfer tax, legal fees, inspection, insurance</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Down Payment</p>
+
+                                    <div class="price">
+
+                                        <h5>$250,000</h5>
+
+                                        <p>20%</p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="pricing-items-content">
+
+                                    <div class="left-border">
+
+                                        <p>Mortgage Amount</p>
+
+                                        <div class="price">
+
+                                            <h5>$1,000,000</h5>
+
+                                            <p>If applicable</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- PRICE LIST GROUP FOUR -->
+
+                        <div class="price-list-group">
+
+
+                            <div class="pricing-top-items">
+
+                                <h5>Monthly Expenses</h5>
+
+                                <a type="button" class="btn btn-secondary">Learn More</a>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Property Taxes</p>
+
+                                    <div class="price">
+
+                                        <h5>$1,250</h5>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="pricing-items-content">
+
+                                    <div class="left-border">
+
+                                        <p>Homeowners' Association Fee</p>
+
+                                        <div class="price">
+
+                                            <h5>$300</h5>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="pricing-items">
+
+                                <div class="pricing-items-content">
+
+                                    <p>Mortgage Payment</p>
+
+                                    <div class="price">
+
+                                        <h5>Varies based on terms and interest rate</h5>
+
+                                        <p>If applicable</p>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="pricing-items-content">
+
+                                    <div class="left-border">
+
+                                        <p>Property Insurance</p>
+
+                                        <div class="price">
+
+                                            <h5>$100</h5>
+
+                                            <p>Approximate monthly cost</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!--/. PRICING LIST DETAILS -->
+
+
+    <!-- TESTIMONIAL DETAILS -->
+
+    <section class="testimonial-details-wrapper">
+
+
+        <div class="section-img">
+
+            <img src="./assets/images/stars.png" alt="">
+
+        </div>
+
+        <div class="container">
+
+            <div class="main-testimonial-detail">
+
+
+                <div class="testimonial-content">
+
+                    <h5>Frequently Asked Questions</h5>
+
+                    <div class="testimonial-text">
+
+                        <p>Find answers to common questions about Estatein's services, property listings, and the real
+                            estate process. We're here to provide clarity and assist you every step of the way.
+                        </p>
+
+                        <a type="button" class="btn btn-secondary">View All FAQ’s</a>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="swiper testimonial-swiper">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+
+                            <h5>How do I search for properties on Estatein?</h5>
+
+                            <p>Learn how to use our user-friendly search tools to find properties that match your
+                                criteria.
+                            </p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>What documents do I need to sell my property through Estatein?</h5>
+
+                            <p>Find out about the necessary documentation for listing your property with us.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>How can I contact an Estatein agent?</h5>
+
+                            <p>Discover the different ways you can get in touch with our experienced agents.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>How do I search for properties on Estatein?</h5>
+
+                            <p>Learn how to use our user-friendly search tools to find properties that match your
+                                criteria.
+                            </p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>What documents do I need to sell my property through Estatein?</h5>
+
+                            <p>Find out about the necessary documentation for listing your property with us.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>How can I contact an Estatein agent?</h5>
+
+                            <p>Discover the different ways you can get in touch with our experienced agents.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+
+                            <h5>How do I search for properties on Estatein?</h5>
+
+                            <p>Learn how to use our user-friendly search tools to find properties that match your
+                                criteria.
+                            </p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>What documents do I need to sell my property through Estatein?</h5>
+
+                            <p>Find out about the necessary documentation for listing your property with us.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>How can I contact an Estatein agent?</h5>
+
+                            <p>Discover the different ways you can get in touch with our experienced agents.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+
+                        <div class="swiper-slide">
+
+                            <h5>How do I search for properties on Estatein?</h5>
+
+                            <p>Learn how to use our user-friendly search tools to find properties that match your
+                                criteria.
+                            </p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>What documents do I need to sell my property through Estatein?</h5>
+
+                            <p>Find out about the necessary documentation for listing your property with us.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+                        <div class="swiper-slide">
+
+                            <h5>How can I contact an Estatein agent?</h5>
+
+                            <p>Discover the different ways you can get in touch with our experienced agents.</p>
+
+                            <a type="button" class="btn btn-secondary">Read More</a>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-navigation-btn">
+
+
+                    <a type="button" class="btn btn-secondary">View All FAQ's</a>
+
+                    <div class="swiper-custom-btn">
+
+
+                        <div class="testimonial-pagination"></div>
+
+                        <div class="btn-prev">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" height="21"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                            </svg>
+
+                        </div>
+
+                        <div class="btn-next">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" height="21"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--/.. TESTIMONIAL DETAILS -->
+
+    <!-- SUB FOOTER -->
+
+    <section class="sub-footer-wrapper">
+
+        <div class="sub-footer-imgs">
+
+            <img src="assets/images/Abstract Design (2).png" alt="" class="roted-img">
+
+            <img src="assets/images/Abstract Design (3).png" alt="" class="right-img">
+
+        </div>
+
+
+        <div class="sub-footer-content">
+
+            <div class="sub-footer-title">
+
+                <h5>Start Your Real Estate Journey Today</h5>
+
+                <p>Your dream property is just a click away. Whether you're looking for a new home, a strategic
+                    investment, or expert real estate advice, Estatein is here to assist you every step of the way.
+                    Take the first step towards your real estate goals and explore our available properties or get
+                    in touch with our team for personalized assistance.
+                </p>
+
+            </div>
+
+            <div class="sub-footer-btn">
+
+                <a class="btn btn-primary">Explore Properties</a>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--/.. SUB FOOTER -->
+
+
+    <!-- FOOTER -->
+
+    <section class="main-footer-wrapper">
+
+        <div class="container">
+
+            <div class="footer-wrapper">
+
+                <div class="footer-leftbar">
+
+                    <div class="logo">
+                        <img src="assets/images/Logo.png" alt="">
+                    </div>
+
+                    <div class="inquiry-field">
+
+                        <span class="envelope">
+
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 4H16V5C16 5.26522 16.1054 5.51957 16.2929 5.70711C16.4804 5.89464 16.7348 6 17 6C17.2652 6 17.5196 5.89464 17.7071 5.70711C17.8946 5.51957 18 5.26522 18 5V4H19C19.2652 4 19.5196 3.89464 19.7071 3.70711C19.8946 3.51957 20 3.26522 20 3C20 2.73478 19.8946 2.48043 19.7071 2.29289C19.5196 2.10536 19.2652 2 19 2H18V1C18 0.734784 17.8946 0.48043 17.7071 0.292893C17.5196 0.105357 17.2652 0 17 0C16.7348 0 16.4804 0.105357 16.2929 0.292893C16.1054 0.48043 16 0.734784 16 1V2H15C14.7348 2 14.4804 2.10536 14.2929 2.29289C14.1054 2.48043 14 2.73478 14 3C14 3.26522 14.1054 3.51957 14.2929 3.70711C14.4804 3.89464 14.7348 4 15 4ZM19 8C18.7348 8 18.4804 8.10536 18.2929 8.29289C18.1054 8.48043 18 8.73478 18 9V15C18 15.2652 17.8946 15.5196 17.7071 15.7071C17.5196 15.8946 17.2652 16 17 16H3C2.73478 16 2.48043 15.8946 2.29289 15.7071C2.10536 15.5196 2 15.2652 2 15V5.41L7.88 11.3C8.4425 11.8618 9.205 12.1774 10 12.1774C10.795 12.1774 11.5575 11.8618 12.12 11.3L14.59 8.83C14.7783 8.6417 14.8841 8.3863 14.8841 8.12C14.8841 7.8537 14.7783 7.5983 14.59 7.41C14.4017 7.2217 14.1463 7.11591 13.88 7.11591C13.6137 7.11591 13.3583 7.2217 13.17 7.41L10.7 9.88C10.5131 10.0632 10.2618 10.1659 10 10.1659C9.73825 10.1659 9.48693 10.0632 9.3 9.88L3.41 4H11C11.2652 4 11.5196 3.89464 11.7071 3.70711C11.8946 3.51957 12 3.26522 12 3C12 2.73478 11.8946 2.48043 11.7071 2.29289C11.5196 2.10536 11.2652 2 11 2H3C2.20435 2 1.44129 2.31607 0.87868 2.87868C0.316071 3.44129 0 4.20435 0 5V15C0 15.7956 0.316071 16.5587 0.87868 17.1213C1.44129 17.6839 2.20435 18 3 18H17C17.7956 18 18.5587 17.6839 19.1213 17.1213C19.6839 16.5587 20 15.7956 20 15V9C20 8.73478 19.8946 8.48043 19.7071 8.29289C19.5196 8.10536 19.2652 8 19 8Z"
+                                    fill="#999999" />
+                            </svg>
+
+                        </span>
+
+                        <input type="email" class="input-form" placeholder="Enter Your Email">
+
+                        <span class="sent-btn">
+
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M26.7843 3.22287C26.1593 2.58412 25.2343 2.34787 24.3718 2.59787L4.25928 8.40912C3.34928 8.66162 2.70428 9.38287 2.53053 10.2979C2.35303 11.2304 2.97303 12.4154 3.78303 12.9104L10.0718 16.7504C10.7168 17.1454 11.5493 17.0466 12.083 16.5116L19.2843 9.31037C19.6468 8.93412 20.2468 8.93412 20.6093 9.31037C20.9718 9.67162 20.9718 10.2604 20.6093 10.6354L13.3955 17.8366C12.8605 18.3716 12.7605 19.2016 13.1543 19.8479L16.9968 26.1604C17.4468 26.9091 18.2218 27.3354 19.0718 27.3354C19.1718 27.3354 19.2843 27.3354 19.3843 27.3216C20.3593 27.1979 21.1343 26.5341 21.4218 25.5966L27.3843 5.63537C27.6468 4.78537 27.4093 3.86037 26.7843 3.22287Z"
+                                    fill="white" />
+                                <path opacity="0.4"
+                                    d="M11.8145 23.928C12.1795 24.2942 12.1795 24.888 11.8145 25.2542L10.107 26.9605C9.92448 27.1442 9.68448 27.2355 9.44448 27.2355C9.20448 27.2355 8.96448 27.1442 8.78198 26.9605C8.41573 26.5942 8.41573 26.0017 8.78198 25.6355L10.4882 23.928C10.8545 23.563 11.4482 23.563 11.8145 23.928ZM10.8349 19.193C11.1999 19.5592 11.1999 20.153 10.8349 20.5192L9.12736 22.2255C8.94486 22.4092 8.70486 22.5005 8.46486 22.5005C8.22486 22.5005 7.98486 22.4092 7.80236 22.2255C7.43611 21.8592 7.43611 21.2667 7.80236 20.9005L9.50861 19.193C9.87486 18.828 10.4686 18.828 10.8349 19.193ZM6.13336 17.7025C6.49836 18.0687 6.49836 18.6625 6.13336 19.0287L4.42586 20.735C4.24336 20.9187 4.00336 21.01 3.76336 21.01C3.52336 21.01 3.28336 20.9187 3.10086 20.735C2.73461 20.3687 2.73461 19.7762 3.10086 19.41L4.80711 17.7025C5.17336 17.3375 5.76711 17.3375 6.13336 17.7025Z"
+                                    fill="white" />
+                            </svg>
+
+                        </span>
+
+
+                    </div>
+
+                </div>
+
+                <div class="footer-rightbar">
+
+                    <ul>
+
+                        <span>Home</span>
+
+                        <li>Hero Section</li>
+                        <li>Features</li>
+                        <li>Properties</li>
+                        <li>Testimonial</li>
+                        <li>FAQ’s</li>
+
+                    </ul>
+
+                    <ul>
+
+                        <span>About Us</span>
+
+                        <li>Our Story</li>
+                        <li>Our Works</li>
+                        <li>How It Works</li>
+                        <li>Our Team</li>
+                        <li>Our Clients</li>
+
+
+
+                    </ul>
+
+                    <ul class="property-list">
+
+                        <span>Properties</span>
+
+                        <li>Portfolio</li>
+                        <li>Categories</li>
+
+                    </ul>
+
+                    <ul>
+
+
+                        <span>Services</span>
+
+                        <li>Valuation Mastery</li>
+                        <li>Strategic Marketing</li>
+                        <li>Negotiation Wizardry</li>
+                        <li>Closing Success</li>
+                        <li>Property Management</li>
+
+
+
+                    </ul>
+
+                    <ul>
+
+                        <span>Contact Us</span>
+
+                        <li>Contact Form</li>
+                        <li>Our Offices</li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--/.. FOOTER -->
+
+    <!-- FOOTER BOTTOM -->
+
+
+    <section class="footer-bottom-wrapper">
+
+        <div class="container">
+
+            <div class="footer-bottom">
+
+                <div class="copyrights">
+
+                    <span>@2023 Estatein. All Rights Reserved.</span>
+
+                    <span>Terms & Conditions</span>
+
+                </div>
+
+                <div class="social-icon">
+
+                    <a href="#">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20px" height="20px"
+                            fill="#fff">
+                            <path
+                                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                        </svg>
+
+                    </a>
+
+                    <a href="#">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" height="20px"
+                            fill="#fff">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+
+                    </a>
+
+                    <a href="#">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20px" height="20px"
+                            fill="#fff">
+                            <path
+                                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                        </svg>
+
+                    </a>
+
+                    <a href="#">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="20px" height="20px"
+                            fill="#fff">
+                            <path
+                                d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                        </svg>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!--/.. FOOTER BOTTOM -->
+
+
+
+
+
+
+    <!-- SWIPER SLIDER CSS LINK -->
+    <script src="./assets/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
