@@ -371,13 +371,16 @@
 
 .property-description .description-item-group .description-items {
 
-    border-right: 1px solid var(--grey15);
+    border-left: 1px solid var(--grey15);
+    padding-left: 20px;
     flex: 1;
 
+    margin-bottom: 10px;
 }
 
-.property-description .description-item-group .description-items:last-child {
-    border-right: none;
+.property-description .description-item-group .description-items:first-child {
+    border-left: none;
+    padding-left: 0;
 }
 
 .property-description .description-item-group .description-items .item-icons {
@@ -396,7 +399,7 @@
 
 .property-description .description-item-group .description-items h3 {
 
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 
 }
@@ -620,7 +623,8 @@
 
     font-size: 35px;
     font-weight: 600;
-    line-height: 2;
+    /* line-height: 2; */
+    padding-bottom: 20px;
 
 }
 
@@ -808,7 +812,8 @@
 
     font-size: 35px;
     font-weight: 600;
-    line-height: 2;
+    /* line-height: 2; */
+    padding-bottom: 20px;
 
 }
 
