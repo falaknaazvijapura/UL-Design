@@ -394,6 +394,7 @@
     .main-footer-wrapper .footer-wrapper .footer-rightbar {
 
         flex-wrap: wrap;
+        padding: 0 10px;
 
     }
 
